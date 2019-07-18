@@ -1,0 +1,95 @@
+.content {
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header {
+    line-height: 40px;
+}
+
+.list {
+    background: #fff;
+    .thumbnai{
+        height: 65px;
+        width: 65px;
+        border-radius: 32.5px;
+    }
+}
+
+.listHandle {
+    .handleItem {
+        color: #1890ff;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .handleItem:hover {
+        text-decoration: underline;
+    }
+
+    .handleItemDel {
+        color: #f51c1c;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .handleItemDel:hover {
+        text-decoration: underline;
+    }
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    background: #fff;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+
+.overlay {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+
+    .overlayItem {
+        width: 95%;
+        height: 30px;
+        line-height: 30px;
+        margin: 10px auto;
+        display: flex;
+
+        .overlayItemTitle {
+            display: block;
+            width: 80px;
+        }
+
+        .overlayCheck {
+            width: 100%;
+            overflow: hidden;
+            line-height: 30px;
+        }
+
+        .msgError {
+            border-color: red;
+        }
+    }
+    .overlayUpload{
+        height: 100px;
+        width:95%;
+        margin: 10px auto;
+        display: flex;
+        .overlayItemTitle{
+            display: block;
+            width:80px;
+        }
+        .uploadImage{
+            height: 92px;
+            width: 92px;
+        }
+    }
+    .groupItem {
+        height: auto;
+    }
+}
